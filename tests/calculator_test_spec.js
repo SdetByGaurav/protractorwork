@@ -18,7 +18,7 @@ describe('calculator test suite', function(){
         
         // direct way to print message in console  
         element(by.cssContainingText('.ng-binding','70')).getText().then(console.log);
-        browser.sleep(3000);
+        browser.sleep(1000);
         
     });
 
