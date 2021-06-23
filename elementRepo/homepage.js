@@ -1,6 +1,6 @@
 let Homepage = function () {
 
-    let firstNumberTB = element(by.model('firsttt'));
+    let firstNumberTB = element(by.model('first'));
     let secondNumberTB = element(by.model('second'));
     let goBtn = element(by.css('button[ng-click="doAddition()"]'));
 

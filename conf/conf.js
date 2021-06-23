@@ -12,7 +12,15 @@ exports.config = {
    // Capabilities to be passed to the webdriver instance.
    capabilities: {
       'browserName': 'chrome'
+    //  'browserName': 'firefox'
    },
+
+   // multiCapabilities: [{
+   //    'browserName': 'firefox'
+   // },
+   // {
+   //    'browserName': 'chrome'
+   // }],
 
    // Framework to use. Jasmine is recommended.
    framework: 'jasmine',
@@ -21,7 +29,10 @@ exports.config = {
    // protractor is called.
    // specs: ['../tests/example_spec.js'],
    // specs: ['../tests/calculator_test_spec.js'],
-   specs: ['../tests/calculator_test_pom_spec.js'],
+   // specs: ['../tests/DemoJasmineTestBlock.js'],
+   // specs: ['../tests/Demo_Nonangular_spec.js'],
+   specs: ['../tests/MouseOverHandling.js'],
+
 
    // Options to be passed to Jasmine.
    jasmineNodeOpts: {
